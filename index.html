@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <!-- nav.navbar>div.logo+(ul.nav-link>(li>a)*4) -->
+     <!-- nav.navbar>div.logo+ul.nav-link -->
+
+    <nav class="navbar">
+        <div class="logo">
+            <h1>MRUGadget</h1>
+        </div>
+        <ul class="nav-links">
+            <!-- (li>a)*4 -->
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Features">Features</a></li>
+            <li><a href="#Products">Products</a></li>
+            <li><a href="#Contacts">Contacts</a></li>
+    </nav>
+
+     <section class="hero">
+        <div class="hero-text">
+            <h1>Smart Gadgets for Smart Peaple</h1>
+            <p>Discover the most advanced tech products of 2025,designed to make your life easier and smart</p>
+            <button>Shop Now</button>
+        </div>
+        <div class="hero-image">
+            <img src="./assets/images/logo.png" alt="">
+        </div>
+     </section>
+     <section id="features" class="features">
+        <div class="feature">
+            <h3>Fast Shipping</h3>
+            <p>We MRU team deliver products acroos the globe within days.</p>
+        </div>
+        <div class="feature">
+            <h3>Premium Quality</h3>
+            <p>All gadgets are tested and certified for high performance by MRU Team</p>
+        </div>
+        <div class="feature">
+            <h3>24/7 Support</h3>
+            <p>We are always here to help you with your<br>queries</p>
+        </div>
+     </section>
+     <!-- section#products.product-gallery>h2+div.product-conatiner -->
+      <section id="products" class="product-gallery">
+        <h2>Our Products</h2>
+        <div class="product-container">
+            <!-- (div.product-card>img+h4+p)*4 -->
+            <div class="product-card">
+                <img src="./assets/images/smartwatch.jpeg" alt="">
+                <h4>Smartwatch</h4>
+                <p>&#8377;199</p>
+            </div>
+            <div class="product-card">
+                <img src="./assets/images/earbuds.jpeg" alt="">
+                <h4>Wireless Earbuds</h4>
+                <p>&#8377;129</p>
+            </div>
+            <div class="product-card">
+                <img src="./assets/images/fittnesstracker.jpeg" alt="">
+                <h4>Fittness tracker</h4>
+                <p>&#8377;200</p>
+            </div>
+            <div class="product-card">
+                <img src="./assets/images/glasses.png" alt="">
+                <h4>Glasses</h4>
+                <p>&#8377;260</p>
+            </div>
+        </div>
+      </section>
+      
+      <section class="lastpart">
+        <h2>Subscribe for Updates</h2>
+        <p>Get the latest news and offers straight to your inbox</p>
+        <label for="Enter your email"></label>
+      <button type="button">Enter your email</button>
+            <label for="Subscribe"></label>
+            <button type="button">Subsribe</button>
+      </section>
+
+      <footer>
+        <h2>@2025 MRUGadget. All rights reserved</h2>
+      </footer>
+
+
+</body>
+</html>
